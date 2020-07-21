@@ -211,7 +211,7 @@ outside the scope of this assignment.
 
 ### Inverse Kinematics
 
-In the [forward kinematics][forwardkinematics] model, the final position of the
+In the [forward kinematics](#forward-kinematics) model, the final position of the
 tip of a finger is determined by setting (manually or via interpolation) the
 relative transformations of each joint in the finger, the hand, the elbow, the
 shoulder, ... This
