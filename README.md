@@ -118,7 +118,7 @@ rest points <img src="svgs/47a7cb84838ee3006335481c45b809b8.svg?invert_in_darkmo
 
 <img src="svgs/02f380174e367c8935a57f86907fc7da.svg?invert_in_darkmode&sanitize=true" align=middle width=13.150665pt height=22.557149999999996pt/> is expressed as a _global_ mapping of any point in the rest reference frame
 to its pose position. This makes it convenient for [blending transformations
-(see below)][linearblendskinning], but it's not so obvious how to pick coherent
+(see below)](#linearblendskinning), but it's not so obvious how to pick coherent
 values for <img src="svgs/02f380174e367c8935a57f86907fc7da.svg?invert_in_darkmode&sanitize=true" align=middle width=13.150665pt height=22.557149999999996pt/>. In particular, we would like each bone to rotate about its
 parent's tip, but this position is determined by the parent's pose
 transformation <img src="svgs/9edc4d158664ffc245acb3d645a207af.svg?invert_in_darkmode&sanitize=true" align=middle width=19.927214999999997pt height=22.557149999999996pt/>, which in turn should rotate about the grandparent's tip
